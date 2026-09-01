@@ -2,6 +2,10 @@
   "name": "@minamorl/darkcore",
   "version": "0.1.0",
   "description": "A small tagged-data effect interpreter with explicit handlers.",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
