@@ -25,8 +25,8 @@ open a version pull request.
 first run as an initial release and takes the version from `initial-version` in
 `release-please-config.json`, which is `0.1.0`.
 
-The package has not been published to npm yet, so `0.1.0` is the first version
-that will appear on the registry.
+`0.1.0` is therefore the first version this automation publishes to the
+registry.
 
 Because `chore:` does not open a version pull request, the commit that adds this
 release automation should be a releasable one, for example:
