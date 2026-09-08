@@ -26,7 +26,7 @@ import {
 } from "@minamorl/darkcore";
 
 const program: Effect<number> = op("read", { key: "answer" }, (value: number) =>
-  op("add", { left: value, right: 1 }, pure),
+  op("add", { left: value, right: 1 }, (sum: number) => pure(sum)),
 );
 
 const handlers: HandlerMap = {
