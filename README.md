@@ -4,6 +4,9 @@ A standalone TypeScript effect interpreter built from small tagged data and an
 explicit handler map. It has no runtime dependencies, global HKT registration,
 typeclass catalog, operator overloading, or per-transformer API.
 
+Documentation, including a detailed introduction and runnable examples, lives
+at [https://lib.minamorl.com/darkcore/](https://lib.minamorl.com/darkcore/).
+
 ## Install
 
 ```sh
